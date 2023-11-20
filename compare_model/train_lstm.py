@@ -2,18 +2,14 @@
 import tensorflow.compat.v1 as tf
 from get_data import get_data
 tf.disable_v2_behavior() 
-# from tensorflow.examples.tutorials.mnist import input_data
  
- 
-# 导入数据
-# mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
  
 # hyperparameters 超参数
 lr = 0.001
 training_iters = 10000
 batch_size = 50
  
-n_inputs = 8  # (img shape:28 * 28)
+n_inputs = 8  #
 n_steps = 5  # time steps
 n_hidden_units = 64  # 隐藏层神经元数目
 n_classes = 9  # classes(0-9 digits)
