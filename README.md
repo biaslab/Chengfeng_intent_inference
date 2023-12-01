@@ -9,7 +9,7 @@ This project focuses on inferring the intended trajectories of ships in various 
      - This notebook showcases simulation results in overtaking, head-on, and crossing situations.
 
 2. **Intent Inference Code for real data:**
-   - [all_Ship trajectory with 9 intents with real data copy.ipynb](https://github.com/biaslab/Chengfeng_intent_inference/blob/main/intent_inference_for_real_data.ipynb)
+   - [intent_inference_for_real_data.ipynb](https://github.com/biaslab/Chengfeng_intent_inference/blob/main/intent_inference_for_real_data.ipynb)
      - Contains the intent inference code tailored for real-world AIS data.
 
 3. **Baseline Models:**
